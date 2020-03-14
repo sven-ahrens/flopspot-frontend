@@ -1,8 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import TheRating from '../views/TheRating'
 Vue.use(VueRouter)
 
-const routes = []
+const routes = [
+  {
+    path: '/',
+    component: TheRating
+  }
+]
 
 const router = new VueRouter({
   mode: 'history',
