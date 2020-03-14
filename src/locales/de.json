@@ -1,0 +1,38 @@
+{
+  "header": {
+    "imgAlt": "logo"
+  },
+  "rating": {
+    "title": "Hotspot bewerten",
+    "titleDescription": "Bitten geben Sie alle nötigen Daten zu ihrer Zugverbindung an und bewerten Sie anschließend die Qualität Ihres Hotspots.",
+    "submit": "Bewertung abgeben",
+    "trainData": {
+      "type": "Zugtyp",
+      "number": "Zugnummer",
+      "wagon": "Wagonnummer"
+    },
+    "trainRating": {
+      "bad": "Schlecht",
+      "average": "Mittelmäßig",
+      "good": "Gut",
+      "badAlt": "Schlechte Bewertung",
+      "averageAlt": "Mittelmäßige Bewertung",
+      "goodAlt": "Gute Bewertung"
+    }
+  },
+  "page": {
+    "about": {
+      "title": "Was ist flopspot?",
+      "subtitle": "Flopspot ist das Folgende",
+      "description": [
+        "Aber da sich dieses Internet ja ohnehin nicht durchsetzen wird, ist das ganze nur halb so wild. Ich zahle gerne für nicht erbrachten Service.Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können.",
+        "Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlich. Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können."
+      ]
+    }
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "copyright": "Copyright 2020 - flopspot"
+  }
+}

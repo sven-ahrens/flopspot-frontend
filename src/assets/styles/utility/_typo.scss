@@ -1,3 +1,29 @@
 body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+main {
   background-color: $flopspot__primary;
+  height: calc(100vh + 400px);
+  padding: 5px;
+}
+
+.container {
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.text--invisible {
+  display: none;
+}
+
+.font--small {
+  font-size: 1rem;
+}
+
+.font--medium {
+  font-size: 1.2rem;
 }

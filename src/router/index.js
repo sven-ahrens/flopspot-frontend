@@ -1,12 +1,27 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import TheRating from '../views/TheRating'
+import TheImprint from '../views/TheImprint'
+import ThePrivacy from '../views/ThePrivacy'
+import TheStatistics from '../views/TheStatistics'
+import TheHome from '../views/TheHome'
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    component: TheRating
+    component: TheHome
+  },
+  {
+    path: '/imprint',
+    component: TheImprint
+  },
+  {
+    path: '/privacy',
+    component: ThePrivacy
+  },
+  {
+    path: '/statistics',
+    component: TheStatistics
   }
 ]
 

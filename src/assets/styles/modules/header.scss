@@ -1,3 +1,10 @@
 header {
-  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: $flopspot__primary;
+  .header__logo {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+  }
 }

@@ -1,0 +1,23 @@
+.statistics {
+  padding: 5px;
+  margin-top: 20px;
+  width: 100%;
+  background: $flopspot__primary_dark;
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    span {
+      margin-top: 15px;
+    }
+  }
+  a:visited {
+    background: white;
+  }
+  &-link {
+    width: 200px;
+    margin-top: 15px;
+  }
+}

@@ -1,12 +1,25 @@
 <template>
   <div id="app">
     <header>
-      <img alt="" src="./assets/images/logo.svg"/>
+      <img
+        class="header__logo"
+        :alt="$t('header.imgAlt')"
+        src="./assets/images/logo.svg" />
     </header>
-    <router-view />
+    <main>
+      <router-view />
+    </main>
     <footer>
       <ul>
-        <li></li>
+        <li>
+          <router-link to="/imprint">{{ $t('footer.imprint') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/privacy">{{ $t('footer.privacy') }}</router-link>
+        </li>
+        <li>
+          {{ $t('footer.copyright') }}
+        </li>
       </ul>
     </footer>
   </div>

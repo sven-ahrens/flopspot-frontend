@@ -1,0 +1,27 @@
+footer {
+  background-color: $flopspot__primary_green;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  color: white;
+  margin-top: 500px;
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      padding-right: 10px;
+      a {
+        text-decoration: none;
+        &:visited {
+          color: white;
+        }
+        &:active {
+          color: rgba(255, 255, 255, 0.6)
+        }
+      }
+    }
+  }
+}
