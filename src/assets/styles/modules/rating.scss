@@ -8,4 +8,10 @@
     padding: 5px;
     text-align: center;
   }
+  .button {
+    margin: 20px auto 0;
+    @media (min-width: 992px) {
+      margin: 50px auto 0;
+    }
+  }
 }

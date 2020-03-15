@@ -5,7 +5,7 @@
       <button
         class="button"
         type="submit">
-        {{ $t('submit') }}
+        {{ $t('rating.submit') }}
       </button>
     </form>
 </template>

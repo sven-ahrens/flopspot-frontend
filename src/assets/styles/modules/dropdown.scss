@@ -1,6 +1,10 @@
 .dropdown {
   width: 100%;
   border: 1px solid $flopspot__primary;
+  overflow: scroll;
+  height: 100%;
+  max-height: 200px;
+  margin: 0;
  &--item {
    &:nth-child(odd) {
      background: $flopspot__primary;

@@ -7,9 +7,9 @@
     "titleDescription": "Bitten geben Sie alle nötigen Daten zu ihrer Zugverbindung an und bewerten Sie anschließend die Qualität Ihres Hotspots.",
     "submit": "Bewertung abgeben",
     "trainData": {
-      "type": "Zugtyp",
-      "number": "Zugnummer",
-      "wagon": "Wagonnummer"
+      "trainType": "Zugtyp",
+      "trainNumber": "Zugnummer",
+      "trainWagon": "Wagonnummer"
     },
     "trainRating": {
       "bad": "Schlecht",
@@ -34,5 +34,10 @@
     "imprint": "Impressum",
     "privacy": "Datenschutz",
     "copyright": "Copyright 2020 - flopspot"
+  },
+  "response": {
+    "filter": {
+      "notFound": "No match"
+    }
   }
 }
