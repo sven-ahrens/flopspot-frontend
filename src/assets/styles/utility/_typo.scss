@@ -23,6 +23,21 @@ body {
   font-size: 1.4rem;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  &:visited {
+    color: white;
+  }
+  &:active {
+    color: rgba(255, 255, 255, 0.6)
+  }
+}
+
 .button {
   background: $flopspot__primary_dark;
   border: 0;

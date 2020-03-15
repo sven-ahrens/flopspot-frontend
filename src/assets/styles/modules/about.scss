@@ -1,5 +1,7 @@
+@import '../mixins/box';
+@import '../mixins/container';
+
 .about {
-  padding: 5px;
+  @include box(white);
   margin-top: 10px;
-  background: white;
 }

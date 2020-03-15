@@ -12,6 +12,6 @@
 
 <script>
 export default {
-  name: 'RatingAbout'
+  name: 'AppAbout'
 }
 </script>
