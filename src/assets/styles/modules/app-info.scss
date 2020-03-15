@@ -3,14 +3,39 @@
 
 .app-info {
   @include container();
+  margin-top: 20px;
+  padding-bottom: 100px;
+  @media (min-width: 992px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 0;
+  }
   .statistics-preview {
     @include box($flopspot__primary_dark);
+    margin-top: 20px;
+    @media (min-width: 992px) {
+      width: calc(30% - 15px);
+      margin-top: 0;
+    }
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      span {
+        margin-top: 15px;
+      }
+    }
     .statistics-link {
       width: 250px;
     }
   }
 
   .about {
+    @media (min-width: 992px) {
+      width: calc(70% - 15px);
+    }
     @include box(white)
   }
 }

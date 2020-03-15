@@ -1,10 +1,10 @@
 body {
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-}
-
-#app {
   background-color: $flopspot__primary;
-  height: calc(100vh + 400px);
+  font-size: 16px;
+  position: relative;
+  @media (min-width: 992px) {
+    height: 100vh;
+  }
 }
 
 .text--invisible {

@@ -1,12 +1,11 @@
 footer {
   background-color: $flopspot__primary_green;
   padding: 20px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: right;
   color: white;
-  margin-top: 500px;
   li {
     display: inline-block;
     padding-right: 10px;
