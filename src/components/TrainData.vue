@@ -3,6 +3,9 @@
     <div class="train-data__inputs">
       <label for="trainType">{{ $t('rating.trainData.type') }}</label>
       <input id="trainType" type="text" v-model="train.type" />
+      <AppDropdown
+        :items="getType"
+        v-if="train.type" />
     </div>
     <div class="train-data__inputs">
       <label for="trainNumber">{{ $t('rating.trainData.number') }}</label>
@@ -16,11 +19,21 @@
 </template>
 
 <script>
+import AppDropdown from './AppDropdown'
 export default {
   name: 'TrainData',
+  components: { AppDropdown },
   data () {
     return {
-      train: {}
+      train: {},
+      apiTypes: ['ICE', 'DB', 'RE', 'RB']
+    }
+  },
+  computed: {
+    getType () {
+      const filteredTypes = this.apiTypes.filter(type => type.indexOf(this.train.type) >= 0)
+
+      return filteredTypes.length ? filteredTypes : this.apiTypes
     }
   },
   props: {
@@ -31,9 +44,6 @@ export default {
   watch: {
     value (val) {
       this.train = val
-    },
-    train (val) {
-      this.$emit('input', val)
     }
   }
 }

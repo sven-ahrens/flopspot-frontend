@@ -2,7 +2,11 @@
     <form @submit.prevent="rate">
       <TrainData v-model="train" />
       <TrainRating v-model="rating" />
-      <button type="submit">{{ $t('submit') }}</button>
+      <button
+        class="button"
+        type="submit">
+        {{ $t('submit') }}
+      </button>
     </form>
 </template>
 

@@ -1,0 +1,37 @@
+.rating {
+  .train-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    @media (min-width: 992px) {
+      flex-direction: row;
+    }
+    &__inputs {
+      &:not(:first-child) {
+        padding-top: 20px;
+      }
+      @media (min-width: 992px) {
+        &:not(:first-child) {
+          padding-top: 0;
+        }
+      }
+      input {
+        visibility: hidden;
+      }
+    }
+    .thumb {
+      width: 125px;
+      &--active {
+        opacity: 50%;
+      }
+      &--bad {
+        transform: rotate(-90deg);
+      }
+      &--good {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}

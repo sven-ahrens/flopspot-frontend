@@ -1,0 +1,4 @@
+@mixin box($color) {
+  padding: 5px;
+  background-color: $color;
+}

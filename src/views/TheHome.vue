@@ -1,7 +1,7 @@
 <template>
     <section class="home">
       <TheRating />
-      <section class="container info">
+      <section class="info">
         <RatingAbout />
         <section class="statistics">
           <router-link to="/statistics">
