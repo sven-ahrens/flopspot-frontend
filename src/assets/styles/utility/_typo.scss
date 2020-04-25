@@ -1,14 +1,63 @@
-body {
-  background-color: $flopspot__primary;
-  font-size: 16px;
-  position: relative;
-  @media (min-width: 992px) {
-    height: 100vh;
-  }
+/* saira-200 - latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 200;
+  src: url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-200.eot'); /* IE9 Compat Modes */
+  src: local('Saira ExtraLight'), local('Saira-ExtraLight'),
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-200.woff') format('woff'), /* Modern Browsers */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-200.svg#Saira') format('svg'); /* Legacy iOS */
 }
 
-.text--invisible {
-  display: none;
+/* saira-regular - latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  src: url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Saira Regular'), local('Saira-Regular'),
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-regular.svg#Saira') format('svg'); /* Legacy iOS */
+}
+
+/* saira-700 - latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 700;
+  src: url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Saira Bold'), local('Saira-Bold'),
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-700.woff') format('woff'), /* Modern Browsers */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('~@/assets/fonts/saira-v4-latin/saira-v4-latin-700.svg#Saira') format('svg'); /* Legacy iOS */
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+body {
+  box-sizing: border-box;
+  color: white;
+  font-family: Saira, serif;
+  font-size: 18px;
+  padding: 20px;
+  background: radial-gradient(104.53% 87.07% at 80.27% 14.41%, #FF9966 0%, #FF5E62 100%);
+  height: 100vh;
+}
+
+#app {
+  height: 100%;
 }
 
 .font--small {
@@ -23,28 +72,32 @@ body {
   font-size: 1.4rem;
 }
 
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  &:visited {
-    color: white;
-  }
-  &:active {
-    color: rgba(255, 255, 255, 0.6)
-  }
-}
-
 .button {
-  background: $flopspot__primary_dark;
-  border: 0;
-  padding: 5px;
   width: 100%;
   max-width: 200px;
-  display: block;
-  color: white;
-  margin: 20px auto;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 60px #D95053, -20px -20px 60px #FF6C71;
+  border: none;
+  border-radius: 15px;
+  color: #D95053;
+  text-align: center;
+  padding: 15px;
+
+  &:disabled {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.description {
+  text-align: left;
+}
+
+// Override default datepicker
+.app-input {
+  border: 0;
+  border-bottom: 3px solid white;
+  background: none;
+  color: black;
+  font-family: Saira, serif;
+  font-size: 1.1rem;
 }

@@ -1,11 +1,6 @@
 @import 'variables';
-@import 'utility/_normalize.scss';
-@import 'utility/_helper.scss';
-@import 'utility/typo.scss';
-@import 'modules/header.scss';
-@import 'modules/footer.scss';
-@import 'modules/rating.scss';
-@import 'modules/train-data.scss';
-@import 'modules/train-rating.scss';
-@import 'modules/dropdown.scss';
-@import 'modules/app-info';
+@import 'utility/_normalize';
+@import 'utility/_typo';
+@import 'utility/_helper';
+@import 'modules/pagination';
+@import 'modules/page';

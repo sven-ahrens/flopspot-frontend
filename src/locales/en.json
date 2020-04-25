@@ -1,14 +1,7 @@
 {
-  "header": {
-    "imgAlt": "logo"
-  },
-  "rating": {
-    "title": "Rate wifi",
-    "titleDescription": ""
-  },
-  "footer": {
-    "imprint": "Imprint",
-    "privacy": "Privacy",
-    "copyright": "Copyright 2020 - flopspot"
+  "intro": {
+    "headline": "Hallo!",
+    "text": "Schön, dass Du hier bist! Du bist gerade mit dem IC(E) unterwegs und willst uns mitteilen, wie gut oder schlecht das W-LAN funktioniert?",
+    "button": "Los geht's."
   }
 }

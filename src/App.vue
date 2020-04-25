@@ -1,29 +1,18 @@
 <template>
   <div id="app">
     <header>
-      <img
-        class="header__logo"
-        :alt="$t('header.imgAlt')"
-        src="./assets/images/logo.svg" />
+      <img class="logo" src="./assets/images/logo.svg" />
     </header>
-    <main>
-      <router-view />
-    </main>
-    <footer>
-      <ul>
-        <li>
-          <router-link to="/imprint">{{ $t('footer.imprint') }}</router-link>
-        </li>
-        <li>
-          <router-link to="/privacy">{{ $t('footer.privacy') }}</router-link>
-        </li>
-        <li>
-          {{ $t('footer.copyright') }}
-        </li>
-      </ul>
-    </footer>
+    <router-view></router-view>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'app'
+}
+</script>
+
 <style lang="scss">
-  @import 'assets/styles/app';
+  @import 'assets/styles/app.scss';
 </style>

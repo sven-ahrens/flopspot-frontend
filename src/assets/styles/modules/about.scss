@@ -1,7 +1,0 @@
-@import '../mixins/box';
-@import '../mixins/container';
-
-.about {
-  @include box(white);
-  margin-top: 10px;
-}

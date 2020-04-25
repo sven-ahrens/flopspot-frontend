@@ -1,0 +1,10 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  .button {
+    width: calc(50% - 50px);
+  }
+}
