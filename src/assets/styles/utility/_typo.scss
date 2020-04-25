@@ -48,11 +48,11 @@ h1 {
 
 body {
   box-sizing: border-box;
-  color: white;
+  color: $flopspot__light;
   font-family: Saira, serif;
   font-size: 18px;
   padding: 20px;
-  background: radial-gradient(104.53% 87.07% at 80.27% 14.41%, #FF9966 0%, #FF5E62 100%);
+  background: radial-gradient(104.53% 87.07% at 80.27% 14.41%, $flopspot__orange 0%, $flopspot_primary__color 100%);
   height: 100vh;
 }
 
@@ -75,11 +75,11 @@ body {
 .button {
   width: 100%;
   max-width: 200px;
-  background: #FFFFFF;
+  background: $flopspot__light;
   box-shadow: 20px 20px 60px #D95053, -20px -20px 60px #FF6C71;
   border: none;
   border-radius: 15px;
-  color: #D95053;
+  color: $flopspot_primary__color;
   text-align: center;
   padding: 15px;
 
@@ -97,7 +97,7 @@ body {
   border: 0;
   border-bottom: 3px solid white;
   background: none;
-  color: black;
+  color: $flopspot__color;
   font-family: Saira, serif;
   font-size: 1.1rem;
 }
@@ -113,9 +113,10 @@ body {
   background: rgba(255, 255, 255, 0.85);
   border: none;
   border-radius: 15px;
-  color: #D95053;
+  color: $flopspot_primary__color;
   text-align: center;
   padding: 10px;
+
   &:not(:last-child) {
     margin-right: 10px;
   }
