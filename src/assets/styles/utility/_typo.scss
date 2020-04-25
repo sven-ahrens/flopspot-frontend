@@ -101,3 +101,38 @@ body {
   font-family: Saira, serif;
   font-size: 1.1rem;
 }
+
+.trains {
+  display: flex;
+  flex-direction: row;
+}
+
+.trains__train {
+  width: 100%;
+  max-width: 100px;
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  border-radius: 15px;
+  color: #D95053;
+  text-align: center;
+  padding: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &--selected {
+    background: rgba(255, 255, 255, 1);
+  }
+}
+
+.trains__train:hover  {
+  cursor: pointer;
+}
+
+.trains__train label:hover  {
+  cursor: pointer;
+}
+
+.trains__train > input {
+  visibility: hidden;
+}
