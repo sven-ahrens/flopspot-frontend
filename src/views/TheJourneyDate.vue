@@ -17,13 +17,16 @@
 <script>
 import Pagination from '../components/Pagination'
 import flatpickr from 'flatpickr'
-import 'flatpickr/dist/themes/dark.css'
+import 'flatpickr/dist/themes/light.css'
 export default {
   name: 'TheJourneyDate',
   components: { Pagination },
   mounted () {
     // Initialize datepicker
-    flatpickr(document.getElementById('datetime'), {})
+    flatpickr(document.getElementById('datetime'), {
+      enableTime: true,
+      dateFormat: 'Y-m-d H:i'
+    })
   }
 }
 </script>

@@ -97,9 +97,12 @@ body {
   border: 0;
   border-bottom: 3px solid white;
   background: none;
-  color: $flopspot__color;
+  color: $flopspot__light;
   font-family: Saira, serif;
   font-size: 1.1rem;
+  &::placeholder {
+    color: $flopspot__color;
+  }
 }
 
 .trains {

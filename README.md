@@ -1,34 +1,9 @@
-# fp
+![flopspot](src/assets/images/logo.svg "flopspot logo")
 
-## Project setup
-```
-npm install
-```
+## Introduction
+flopspot is a rating platform for trains within germany.
+You can choose the train you travelled with and rate it's
+wifi connection.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Preview
+![first look](public/first-look.jpg "first look")
